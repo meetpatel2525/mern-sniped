@@ -6,7 +6,7 @@ var cookieParser = require("cookie-parser");
 var cors = require("cors");
 const user = require("./router/userRoute");
 const url = "mongodb://localhost/demo";
-// mongodb://localhost:27017
+// mongodb: //localhost:27017
 // const url = process.env.MY_DB;
 require("dotenv").config();
 const path = require('path');
